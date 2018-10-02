@@ -1,0 +1,202 @@
+/*header*/
+
+#header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 5.75px 20px;
+  align-items: center;
+}
+
+.shortcut {
+  color: rgba(0, 0, 0, 0.87);
+  padding: 6px 13px;
+  padding-right: 0px;
+  font-size: 13px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.shortcut:hover {
+  text-decoration: underline;
+}
+
+.square{
+  padding-top: 8px;
+  padding-right: 18px;
+  padding-left: 20px;
+}
+
+.signin {
+  background-color: #4386f8;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  padding: 8px 13px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.signin:hover {
+  box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.16);
+}
+
+/*-----*/
+/* Main Page */
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10%;
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.searchbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.champ {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.16);
+  padding-right: 17px;
+  border-radius: 1px;
+  border: groove 1px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  font-size: 17px;
+  width: 490px;
+  height: 18px;
+  transition: 0.3s;
+}
+
+.searchbar input{
+  	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAACrElEQVR42u2Xz2sTQRSAX8VSb1K8iNqKooJH2Ux6Ksn+iPQqxZMIehJB0do/IMhmQWsvHr2KSEGk0tSLIoWIYNUKij20F2/N7iaUZnYT0kYzzhMKs0HDJiTdLcwHDwKZSd63781LBiQSSW9JZdkhzfKm1Rz9mjZp/W9YdEU3vXv4HsQZ40FtNG36q5rls//Ej4tmbSS2T15Mvp3ExOPmEMQNbBtMMEyoljcFcQN7PqyAlqNfIG7gYQ0tYNIaxA1MrJPY3wImbUqBKAXSFv0tBSIVMOkvKRDtGKWN/T6FdqRAxFNoWwpEPIXqUqBT6ALU/UVgu8GW4GD3f6f9TRDYNJTDrk7YbtiqUumHwIYoUJuHERDAS0r4CvgFECgbY+cFAR7KT+g1POmCKFDNw6WggHc3fBtVb4CAoyauBgXIG+g1Xh5mRAGah6cggBd11fK/h7lOprIs0H6uRl6KAo5O7kOv4QmPiwJ4Jqqv4FiwCtXjvD2+tRmfK6kZ/ygI2HritK0rDVGgrClJ6DWMwYC/AGuCBMYcIC2V0CzvjmbRz3j3xUjn6CfeYreUJ2wQkGD75INPX1mFfsEFrrcIYCvdhC4paWQakxajpJMr0C9YFg54i7AsClRmh9/xnr0NHcInzZStk2aLwAcGMAD9pPIazvFKVDD5rdnhJeHLX5RTyRPQHpz5o66emMc9wdlPtvA8wF7Aq2BUHh1525qEo5JtR1WeOXpickO9cJIpyuD6xJmhYiZ5ytWSl3mlnuOaf+2zDaLDXmJrSgZ/MYVEugo+gSh+FkSBa4yd5Ul87DZ5XpFl/AyIEjzYjkau8WqshU2cr13HPbgX4gJOD97n465GZlyVvC9mSKloKI2iTnbwNT+gBX54H+IaXAtxJzE3ycSAFqSAFJACUkAikXD+AHj5/wx2o5osAAAAAElFTkSuQmCC)
+  	no-repeat;
+    background-position: 96%;
+    background-size: 24px 24px;
+    padding-right: 80px;
+}
+
+.champ:hover {
+  box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.16);
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search {
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  border: hidden;
+  border-radius: 2px;
+  margin-right: 10px;
+  margin-top: 20px;
+  width: 150px;
+  height: 40px;
+  opacity: 0.6;
+  transition: 0.3s;
+  background-color: #e9e9e9;
+}
+
+.search:hover {
+  opacity: 1;
+  border: 1px solid #ccc;
+}
+
+.lucky {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  border: hidden;
+  border-radius: 2px;
+  margin-top: 20px;
+  width: 140px;
+  height: 40px;
+  opacity: 0.6;
+  transition: 0.3s;
+  line-height: 40px;
+  background-color: #e9e9e9;
+}
+
+.lucky:hover {
+  opacity: 1;
+  border: 1px solid #ccc;
+}
+
+/*-----*/
+/* Footer */
+footer {
+  background: #f2f2f2;
+  border-top: solid 2px #e4e4e4;
+  bottom: 0;
+  position: fixed;
+  padding-bottom: 0;
+  width: 100%;
+  font-family: arial, sans-serif;
+  left: 0px;
+  font-size: 12px;
+}
+
+footer ul li {
+  display: inline;
+  color: #666666;
+  font-size: 13px;
+  padding-right: 13px;
+}
+
+footer ul {
+  float: left;
+}
+
+footer ul a {
+  text-decoration: none;
+  color: #666;
+}
+
+footer ul a:hover {
+  text-decoration: underline;
+}
+
+footer ul a:active {
+  text-decoration: underline;
+  color: orangered;
+}
+
+.footerCountry {
+  display: flex;
+  height: 41px;
+  border: 1px solid #e4e4e4;
+  padding-left: 40px;
+  align-items: center;
+  color: rgba(0, 0, 0, .54);
+  font-size: 15px;
+}
+
+.footerRight {
+  float: right;
+  padding-right: 20px;
+}
+
+.footerLeft {
+  float: left;
+}
+
+/*-----*/
