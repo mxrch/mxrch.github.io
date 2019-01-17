@@ -17,18 +17,7 @@
     color: #083749;
   }
 
-  div#main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-
   div.card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     box-shadow: 0 0 5px 2px rgba(0,0,0,.05);
     background-color: white;
     width: 24rem;
@@ -99,14 +88,6 @@
     font-weight: bold;
     border-radius: 0.3rem;
     border: none;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-  }
-
-  .CTA:hover {
-    background-color: #4CAF50; /* Green */
-    box-shadow: 0 0 5px 2px rgba(0,0,0,.15);
-    cursor: pointer;
   }
 
   p.bottom-text {
@@ -126,10 +107,10 @@
 </style>
 
 <html>
-  <body bgcolor="#F6F6F8">
-    <div id="main">
+  <body bgcolor="#F6F6F8" align="center">
+    <div id="main" align="center">
       <img class="logo" src="https://image.noelshack.com/fichiers/2019/03/4/1547719969-logo-payplug.png">
-      <div class="card">
+      <div class="card" align="center">
         <img class="tick" src="https://image.noelshack.com/fichiers/2019/03/4/1547719462-green-tick.png">
         <h3 class="title">Vous avez reçu un paiement de 100€ sur votre compte PayPlug</h3>
         <table class="info">
@@ -155,7 +136,9 @@
             <td class="value" colspan="2">#213947</td>
           </tr>
         </table>
+        <br>
         <a class="CTA" href="https://www.payplug.com">Consulter le détail du paiement</a>
+        <br>
         <div class="footer-card">
           <p class="bottom-text">Vous pouvez mettre à jour vos préférences de notifications depuis le portal <a href="https://www.google.fr">en cliquant ici.</a></p>
         </div>
